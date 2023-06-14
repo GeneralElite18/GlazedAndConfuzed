@@ -1,0 +1,485 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #aae2f9;
+    font-family: Palatino Linotype; 
+}
+
+.container-fluid{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*   Navigation Bar   */
+
+.topBar{
+    background-color: #00aae9;
+    margin: 0;
+    padding: 2px;
+    font-family: "Bubble Bobble";
+    box-shadow: black 0px 5px 1rem;
+}
+
+.navbarSpacer{
+    padding: 2px;
+    width: 100%;
+}
+
+.logo{
+   width: 10%;
+}
+
+@media (max-width: 800px)
+{
+    .logo{
+        width: 20%;
+     }
+}
+
+.navImage{
+    width: 100%;
+}
+
+.navImageHidden{
+    width: 100%;
+    opacity: 0;
+}
+
+.tableLinks{
+    padding: 0 2rem;
+    display: flex;
+}
+
+.navLinks{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    white-space: nowrap;
+    text-shadow: 2px 2px black;
+    display: flex;
+}
+
+.navLinks:hover{
+    color: #ff9735;
+}
+
+
+
+/*   Home Page Image   */
+
+.mainImage{
+    width: 100%;
+}
+
+.bar{
+    height: 3rem;
+    width: 100%;
+}
+
+.visibleBar{
+    height: 1rem;
+    width: 100%;
+    background-color: #00aae9;
+    box-shadow: black 2px 2px 0.5rem;
+}
+
+/*   Text Sections   */
+
+.textSection{
+    padding: 3rem;
+}
+
+.sectionHeader{
+    font-size: 4.5rem;
+    font-family: "Bubble Bobble";
+    color: #ff9735;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+.generalText{
+    font-size: 1rem;
+    font-family: Palatino Linotype;
+    color: #ff7706;
+    font-weight: bolder;
+    vertical-align: middle;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+}
+
+.leftText{
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-family: Palatino Linotype;
+    font-weight: bolder;
+    color: #ff7706;
+}
+
+.centerText{
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-family: Palatino Linotype;
+    font-weight: bolder;
+    color: #ff7706;
+    text-align: center;
+}
+
+.rightText{
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-family: Palatino Linotype;
+    font-weight: bolder;
+    color: #ff7706;
+    text-align: right;
+}
+
+@media (max-width: 800px)
+{
+    .sectionHeader{
+        font-size: 9vw;
+        font-family: "Bubble Bobble";
+        color: #ff9735;
+        text-align: center;
+        text-shadow: 2px 2px black;
+    }
+
+    .generalText{
+        font-size: 5vw;
+        font-family: Palatino Linotype;
+        color: #ff7706;
+        font-weight: bolder;
+        vertical-align: middle;
+        padding: 1rem;
+        margin: 0;
+    }
+    
+    .leftText{
+        font-size: 5vw;
+        padding-top: 2rem;
+        font-family: Palatino Linotype;
+        font-weight: bolder;
+        color: #ff7706;
+    }
+    
+    .centerText{
+        font-size: 5vw;
+        padding-top: 2rem;
+        font-family: Palatino Linotype;
+        font-weight: bolder;
+        color: #ff7706;
+        text-align: center;
+    }
+    
+    .rightText{
+        font-size: 5vw;
+        padding-top: 2rem;
+        font-family: Palatino Linotype;
+        font-weight: bolder;
+        color: #ff7706;
+        text-align: right;
+    }
+
+}
+
+/*   Button Stylings   */
+
+.standardButton{
+    background-color: #ff69ae;
+    border-radius: 1rem;
+    margin: 3rem auto;
+    height: 8rem;
+    font-size: 2.5rem;
+    padding: 1rem;
+    display: flex;
+    font-family: "Bubble Bobble";
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5rem;
+    text-shadow: 5px 5px black;
+    border-color: #ff9735;
+    border-style: solid;
+    border-width: 0.2rem;
+}
+
+.standardButton:hover{
+    color: #ff9735;
+    background-color: #ff1583;
+    border-color: #ff7706;
+    border-style: solid;
+    border-width: 0.2rem;
+    box-shadow: black 5px 5px 2rem;
+}
+
+.orderButton:active{
+    color: #ff7706;
+    background-color: #ff69ae;
+    border-color: #00aae9;
+    border-style: solid;
+    border-width: 0.2rem;
+    -webkit-text-fill-color: #ff7706;
+}
+
+/*   Image and Table Sections   */
+
+.logoImage{
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.leftImageSection{
+    background-color: #00aae9;
+    padding: 15px;
+    border-color: #00aae9;
+    border-style: solid;
+    border-width: 1rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    box-shadow: black 5px 5px 2rem;
+}
+
+.rightImageSection{
+    background-color: #00aae9;
+    padding: 15px;
+    border-color: #00aae9;
+    border-style: solid;
+    border-width: 1rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    box-shadow: black -5px 5px 2rem;
+}
+
+.section{
+    width: 100%;
+    border: 3rem;
+    margin: 0;
+}
+
+.leftImage{
+    width: 100%;
+    border-radius: 3rem;
+    border-color: #ff9735;
+    border-style: solid;
+    border-width: 1rem;
+    display: flex;
+}
+
+.rightImage{
+    width: 100%;
+    border-radius: 3rem;
+    border-color: #ff9735;
+    border-style: solid;
+    border-width: 1rem;
+    position: relative;
+    float: right;
+    display: flex;
+}
+
+.socialsTable{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.socialImage{
+    width: 5rem;
+    margin: 0 2rem;
+}
+
+@media (max-width: 800px)
+{
+    .socialImage{
+        width: 3rem;
+        margin: 0 2rem;
+    }
+}
+
+.rightMap{
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    border-color: #ff9735;
+    border-style: solid;
+    border-width: 1rem;
+    float: right;
+    display: flex;
+}
+
+.informationTable{
+    text-align: center;
+}
+
+/*  Contact Information Section  */
+
+.infoText{
+    font-size: 2.5rem;
+    font-family: Palatino Linotype;
+    color: #ff7706;
+    font-weight: bolder;
+    vertical-align: middle;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+}
+
+.infoLabelText{
+    font-size: 3rem;
+    font-family: "Bubble Bobble";
+    color: #ff9735;
+    text-shadow: 2px 2px black;
+    vertical-align: middle;
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+}
+
+@media (max-width: 800px)
+{
+    .infoText{
+        font-size: 4vw;
+        font-family: Palatino Linotype;
+        color: #ff7706;
+        font-weight: bolder;
+        vertical-align: middle;
+        padding: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .infoLabelText{
+        font-size: 6vw;
+        font-family: "Bubble Bobble";
+        color: #ff9735;
+        text-shadow: 2px 2px black;
+        vertical-align: middle;
+        margin: 0;
+        padding: 1rem;
+        width: 100%;
+    }
+
+
+}
+
+/*  Daily Specials Section  */
+
+.dailyHeader{
+    font-family: "Bubble Bobble";
+    color: #ff9735;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 3.5rem;
+}
+
+.dailyText{
+    font-size: 1.25rem;
+    font-family: Palatino Linotype;
+    font-weight: bolder;
+    color: #ff7706;
+    text-align: center;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+@media (max-width: 800px)
+{
+    .dailyHeader{
+        font-family: "Bubble Bobble";
+        color: #ff9735;
+        text-align: center;
+        text-shadow: 2px 2px black;
+        font-size: 2rem;
+    }
+    
+    .dailyText{
+        font-size: 1rem;
+        font-family: Palatino Linotype;
+        font-weight: bolder;
+        color: #ff7706;
+        text-align: center;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+
+}
+
+.dailyCell{
+    padding: 25px 40px;
+}
+
+.dailyItem{
+    padding: 25px;
+}
+
+.dailyTable{
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem auto;
+    width: 50%;
+    overflow-x: auto;
+}
+
+
+
+/*  Order Online Section  */
+
+.orderText{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    font-family: Palatino Linotype;
+    font-weight: bolder;
+    color: #ff7706;
+    text-align: center;
+}
+
+/*  Footer Section  */
+
+.footer{
+    background-color: #00aae9;
+    margin: 0;
+    height: 5rem;
+    padding: 0;
+    box-shadow: black 0px -5px 1rem;
+    width: 100%;
+}
+
+.footerTable{
+    text-align: center;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.footerLink{
+    text-decoration: none;
+    font-family: "Bubble Bobble";
+    color: white;
+    text-shadow: 1px 1px black;
+    margin: 0;
+    padding: 0 2rem;
+}
+
+@media (max-width: 800px)
+{
+    .footerLink{
+        text-decoration: none;
+        font-family: "Bubble Bobble";
+        color: white;
+        text-shadow: 1px 1px black;
+        margin: 0;
+        padding: 0 2rem;
+        font-size: 1.5vw;
+    }
+}
+
+.footerLink:hover{
+    color: #ff9735;
+}
